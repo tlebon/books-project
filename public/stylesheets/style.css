@@ -1,27 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('/images/yinyangcat.jpeg');
-  background-size: cover;
-}
+  background-image: url("/images/yinyangcat.jpeg"); }
 
 a {
   color: #00B7FF;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-.books{
+.books {
   background-color: antiquewhite;
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto;
-  width:40%;
-}
+  width: 40%; }
 
-.titles{
+.titles {
   background-color: antiquewhite;
   padding: 5px;
   border-radius: 10px;
   margin: 0 auto 10px auto;
-  width:10%;
-}
+  width: 10%; }
+
+/*# sourceMappingURL=style.css.map */

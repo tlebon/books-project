@@ -1,0 +1,17 @@
+<div class="titles">Update ya books!</div>
+
+<form action="/books/edit/{{book.id}}" method="post">
+  <label for="">Title:</label>
+  <input type="text" name="title" required="true" value=">
+
+  <label for="">Author:</label>
+  <input type="text" name="author"required="true">
+
+  <label for="">Description:</label>
+  <input type="text" name="description"required="true">
+
+  <label for="">Rate:</label>
+  <input type="number" name="rating"required="true">
+
+  <button type="submit">EDIT</button>
+</form>
